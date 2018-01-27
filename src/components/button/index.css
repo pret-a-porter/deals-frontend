@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  overflow: hidden;
+  font-weight: bold;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.15s border, 0.15s background, 0.15s color;
+  background-color: #4A90E2;
+  width: 186px;
+  height: 39px;
+  text-align: center;
+  border: none;
+  outline: none;
+  color: white;
+  font-family: Helvetica-Bold;
+  font-size: 18px;
+  border-radius: 3px;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active {
+  transform: scale(0.98);
+}

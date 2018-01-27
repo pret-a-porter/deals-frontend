@@ -1,0 +1,14 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.title {
+  margin: 0;
+  font-family: Helvetica-Light;
+  font-size: 24px;
+  font-weight: 300;
+}

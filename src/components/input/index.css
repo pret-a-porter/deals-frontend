@@ -1,0 +1,22 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input {
+  line-height: 42px;
+  border: none;
+  padding: 0 17px;
+  background-color: white;
+  font-family: Helvetica-Bold;
+  font-size: 18px;
+  font-weight: bold;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none;
+}
+
+.input:disabled {
+  background: #F4F4F4;
+  color: #6F6F6F;
+}

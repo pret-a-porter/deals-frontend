@@ -1,0 +1,17 @@
+.delete {
+  float: right;
+  border: none;
+  outline: none;
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.delete:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+.delete:active {
+  transform: scale(0.9);
+}

@@ -1,0 +1,36 @@
+.form {
+  display: block;
+  padding: 30px 40px 40px;
+  background: #E7F1FA;
+}
+
+.label {
+  margin-bottom: 28px;
+  display: block;
+}
+
+.input {
+  margin: 8px 0;
+}
+
+.prefix {
+  font-family: Helvetica-Bold;
+  font-weight: bold;
+  font-size: 18px;
+  background-color: #C5E3FD;
+  width: 86px;
+  text-align: center;
+  line-height: 42px;
+  text-transform: uppercase;
+}
+
+.submit {
+  margin-top: 45px;
+}
+
+.error {
+  margin-bottom: 15px;
+  padding: 10px 20px;
+  color: #D8000C;
+  background-color: #FFBABA;
+}

@@ -1,0 +1,55 @@
+.table {
+  width: 100%;
+  border: none;
+}
+
+.table thead tr {
+  background-color: white;
+  text-align: left;
+  font-weight: bold;
+  font-family: Helvetica-Bold;
+  line-height: 43px;
+}
+
+.table tbody tr {
+  line-height: 43px;
+  background-color: #e7f1fa;
+}
+
+.table tbody tr:nth-child(odd) {
+  background-color: #f5f9fd;
+}
+
+.table td,
+.table th {
+  padding: 0 18px;
+}
+
+.wrapper {
+  margin-top: 66px;
+}
+
+.title {
+  margin: 0;
+  font-family: Helvetica-Light;
+  font-size: 24px;
+  font-weight: 300;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.count {
+  background-color: #7EBAFF;
+  border-radius: 3px;
+  color: white;
+  width: 108px;
+  line-height: 24px;
+  white-space: nowrap;
+  text-align: center;
+}
